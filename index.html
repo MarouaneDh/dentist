@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Smile, Our Expertise</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="logo.jpeg" alt="Your Smile, Our Expertise" />
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Your Radiant Smile Starts Here</h1>
+        <p>
+          Personalized dental care designed for your comfort and well-being.
+        </p>
+        <a href="contact.html" class="btn">Schedule Appointment</a>
+      </div>
+      <div class="hero-image">
+        <img src="hero.jpeg" alt="Smiling Patient" />
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about-content">
+        <h2>Our Commitment to Your Dental Health</h2>
+        <p>
+          At Azure Dental Arts, we believe in providing exceptional dental care
+          with a gentle touch. Our experienced team is dedicated to creating a
+          relaxing and comfortable environment, ensuring your visit is
+          stress-free.
+        </p>
+        <a href="about.html" class="btn secondary-btn">Learn More</a>
+      </div>
+      <div class="about-image">
+        <img src="hello.jpeg" alt="Our Team" />
+      </div>
+    </section>
+
+    <section class="services">
+      <h2>Explore Our Comprehensive Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <img src="Teeth_Cleaning.jpeg" alt="Teeth Cleaning" />
+          <h3>Teeth Cleaning</h3>
+          <p>
+            Maintain optimal oral hygiene with our thorough cleaning services.
+          </p>
+        </div>
+        <div class="card">
+          <img src="Dental_Implants.jpeg" alt="Dental Implants" />
+          <h3>Dental Implants</h3>
+          <p>Restore your smile with durable and natural-looking implants.</p>
+        </div>
+        <div class="card">
+          <img src="Cosmetic_Dentistry.jpeg" alt="Cosmetic Dentistry" />
+          <h3>Cosmetic Dentistry</h3>
+          <p>Enhance your smile's aesthetics with our cosmetic solutions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h2>What Our Patients Say</h2>
+      <div class="testimonial-slider">
+        <div class="slide">
+          <p>
+            "The team made me feel so comfortable, and my smile has never looked
+            better!"
+          </p>
+          <span>- Sarah M.</span>
+        </div>
+        <div class="slide">
+          <p>
+            "Professional, caring, and excellent results. Highly recommend!"
+          </p>
+          <span>- David L.</span>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2018 Azure Dental Arts. All Rights Reserved.</p>
+    </footer>
+    <script>
+      document
+        .querySelector('.hamburger')
+        .addEventListener('click', function () {
+          document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+  </body>
+</html>
